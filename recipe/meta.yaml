@@ -1,5 +1,5 @@
 {% set name = "sdjson" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sdjson-{{ version }}.tar.gz
-  sha256: d15e54d3727ee6b175014494a31a2bd6012da3cd3083850ba9cfb58aef0c4f3b
+  sha256: 1cb9fc9316b2fab479575f9a3102190da49f151be25a87e296a2316707b9e46e
 
 build:
   noarch: python
